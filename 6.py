@@ -1,0 +1,6 @@
+numero_um = int(input("Digite o primeiro número: "))
+numero_dois = int(input("Digite o segundo número: "))
+soma = int(numero_um + numero_dois)
+antecessor = int(soma - 1)
+sucessor = int(soma + 1)
+print("A soma dos dois números é: {}. O antecessor dessa soma é {}, já o sucessor {}.".format(soma, antecessor, sucessor))
